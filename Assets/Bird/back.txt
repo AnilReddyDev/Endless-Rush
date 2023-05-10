@@ -1,0 +1,15 @@
+RUNNING = [pygame.image.load(os.path.join("Assets/Player", "player_run2_a.PNG")),
+           pygame.image.load(os.path.join("Assets/Player", "player_run3_a.PNG"))]
+JUMPING = pygame.image.load(os.path.join("Assets/Player", "player_jump_a.PNG"))
+DUCKING = [pygame.image.load(os.path.join("Assets/Player", "player_down_a.PNG")),
+           pygame.image.load(os.path.join("Assets/Player", "player_down_a.PNG"))]
+
+SMALL_CACTUS = [pygame.image.load(os.path.join("Assets/GroundObs", "objpipe_a.PNG")),
+                pygame.image.load(os.path.join("Assets/GroundObs", "objpipe_a.PNG")),
+                pygame.image.load(os.path.join("Assets/GroundObs", "snail1.png"))]
+LARGE_CACTUS = [pygame.image.load(os.path.join("Assets/GroundObs", "objpipe_a.PNG")),
+                pygame.image.load(os.path.join("Assets/GroundObs", "LargeCactus2.png")),
+                pygame.image.load(os.path.join("Assets/GroundObs", "snail1.png"))]
+
+BIRD = [pygame.image.load(os.path.join("Assets/Bird", "bird1_a.PNG")),
+        pygame.image.load(os.path.join("Assets/Bird", "bird2_a.PNG"))]
